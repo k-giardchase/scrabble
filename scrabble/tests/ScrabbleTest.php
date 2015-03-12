@@ -59,6 +59,19 @@
             $this->assertEquals($final_score, $result);
         }
 
+        function test_scrabbleScoreFive()
+        {
+            //Arrange
+            $test_scrabble_score_5 = new Scrabble;
+            $input_word = "steak";
+
+            //Act
+            $result = $test_scrabble_score_5->scrabbleScore($input_word);
+
+            //Assert
+            $final_score = 9;
+            $this->assertEquals($final_score, $result);
+        }
 
 
 
