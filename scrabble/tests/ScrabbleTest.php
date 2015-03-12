@@ -14,8 +14,8 @@
             $result = $test_Scrabble->scrabbleScore($input_word);
 
             //Assert
-            $score = array(1);
-            $this->assertEquals($score, $result);
+            $i = 1;
+            $this->assertEquals($i, $result);
         }
         function test_scrabbleScoreTwo()
         {
@@ -27,8 +27,8 @@
             $result = $test_scrabble_score_2->scrabbleScore($input_word);
 
             //Assert
-            $score = array(2);
-            $this->assertEquals($score, $result);
+            $i = 2;
+            $this->assertEquals($i, $result);
         }
     }
 
