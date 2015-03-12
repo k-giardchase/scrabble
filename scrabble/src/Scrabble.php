@@ -60,6 +60,7 @@
                             array_push($score, $tile);
                             $tile = 0;
                         }
+
                     }
 
 
@@ -67,6 +68,8 @@
                     return $final_score;
 
                }
+
+               
     }
 
 ?>
