@@ -16,10 +16,10 @@
 
 
 
-    $app->get('/create_word' function() use ($app) {
+    $app->get('/create_word', function() use ($app) {
         $word = new Scrabble;
         $generate_score = $word->scrabbleScore($_GET['inputword']);
-        return $app['twig']->render('result.twig', array('results' => $generate_score));
+        return $app['twig']->render('result.twig', array('result' => $generate_score));
     });
 
     return $app;
