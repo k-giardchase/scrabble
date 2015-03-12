@@ -45,6 +45,20 @@
             $this->assertEquals($final_score, $result);
         }
 
+        function test_scrabbleScoreFour()
+        {
+            //Arrange
+            $test_scrabble_score_4 = new Scrabble;
+            $input_word = "home";
+
+            //Act
+            $result = $test_scrabble_score_3->scrabbleScore($input_word);
+
+            //Assert
+            $final_score = 9;
+            $this->assertEquals($final_score, $result);
+        }
+
 
 
 
