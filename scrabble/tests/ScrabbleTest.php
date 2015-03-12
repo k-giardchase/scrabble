@@ -73,14 +73,14 @@
             $this->assertEquals($final_score, $result);
         }
 
-        function test_scrabbleScoreSix()
+        function test_scrabbleScoreEight()
         {
             //Arrange
-            $test_scrabble_score_6 = new Scrabble;
+            $test_scrabble_score_8 = new Scrabble;
             $input_word = "jaguar";
 
             //Act
-            $result = $test_scrabble_score_6->scrabbleScore($input_word);
+            $result = $test_scrabble_score_8->scrabbleScore($input_word);
 
             //Assert
             $final_score = 14;

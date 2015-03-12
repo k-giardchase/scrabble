@@ -12,6 +12,7 @@
                     $three = array("b", "c", "m", "p");
                     $four = array ("f", "h", "v", "w", "y");
                     $five = array("k");
+                
                     $word_split = str_split($input_word);
                     $tile = 0;
 
