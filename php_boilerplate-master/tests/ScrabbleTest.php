@@ -1,19 +1,20 @@
 <?php
 
-    require_once "src/MyProjectClass.php";
+    require_once "src/Scrabble.php";
 
     class ScrabbleTest extends PHPUnit_Framework_TestCase
     {
-        function test_myFunction_firstTest()
+        function test_scrabbleScore_1()
         {
             //Arrange
-            $test_MyProjectClass = new MyProjectClass;
+            $test_Scrabble = new Scrabble;
+            $input_word = "a";
 
             //Act
-            $result = $test_MyProjectClass->myFunction();
+            $result = $test_Scrabble->scrabbleScore($input_word);
 
             //Assert
-            $this->assertEquals( /* expectation */, $result);
+            $this->assertEquals( 1, $result);
         }
     }
 

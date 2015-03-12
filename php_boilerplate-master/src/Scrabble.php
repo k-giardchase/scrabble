@@ -2,7 +2,7 @@
 
     class Scrabble
     {
-        function myFunction()
+        function scrabbleScore($input_word)
         {
             /* CODE GOES HERE */
         }
