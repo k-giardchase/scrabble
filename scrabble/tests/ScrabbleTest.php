@@ -101,6 +101,20 @@
             $this->assertEquals($final_score, $result);
         }
 
+        function test_scrabbleScoreCaps()
+        {
+            //Arrange
+            $test_scrabble_score_caps = new Scrabble;
+            $input_word = "CrAzY";
+
+            //Act
+            $result = $test_scrabble_score_caps->scrabbleScore($input_word);
+
+            //Assert
+            $final_score = 19;
+            $this->assertEquals($final_score, $result);
+        }
+
 
 
 

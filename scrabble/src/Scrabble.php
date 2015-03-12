@@ -14,7 +14,7 @@
                     $five = array("k");
                     $eight = array("j", "x");
                     $ten = array("q", "z");
-                    $word_split = str_split($input_word);
+                    $word_split = str_split(strtolower($input_word));
                     $tile = 0;
 
 
