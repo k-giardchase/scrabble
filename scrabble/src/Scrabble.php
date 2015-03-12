@@ -12,7 +12,7 @@
                     $three = array("b", "c", "m", "p");
                     $four = array ("f", "h", "v", "w", "y");
                     $five = array("k");
-                
+                    $eight = array("j", "x");
                     $word_split = str_split($input_word);
                     $tile = 0;
 
@@ -44,6 +44,12 @@
 
                         elseif(in_array($letter, $five)) {
                             $tile += 5;
+                            array_push($score, $tile);
+                            $tile = 0;
+                        }
+
+                        elseif(in_array($letter, $eight)) {
+                            $tile += 8;
                             array_push($score, $tile);
                             $tile = 0;
                         }
