@@ -2,16 +2,23 @@
     <head>
         <title>Scrabble</title>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-
+        <link rel='stylesheet' href='css/styles.css' type='text/css'>
     </head>
     <body>
         <div class='container'>
+            <div class='jumbotron'>
+             <h1>Scrabble</h1>
+            </div>
+
             <h1>Find out your scrabble score!</h1>
+
+            <div class='col-md-12'>
             <form action="/create_word" method ="get">
                 <label for="inputword">Enter Your Word</label>
                 <input id="inputword" name="inputword" type="text" required>
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" class="btn btn-info">Submit</button>
             </form>
+        </div>
         </div>
     </body>
 </html>
