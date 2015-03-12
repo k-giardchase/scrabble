@@ -10,6 +10,7 @@
                     $one = array("s", "e", "i", "o", "u", "l", "n", "r", "a", "t");
                     $two = array ("g", "d");
                     $three = array("b", "c", "m", "p");
+                    $four = array ("f", "h", "v", "w", "y");
                     $word_split = str_split($input_word);
                     $tile = 0;
 
@@ -33,7 +34,11 @@
                             $tile = 0;
                         }
 
-
+                        elseif(in_array($letter, $four)) {
+                            $tile += 4;
+                            array_push($score, $tile);
+                            $tile = 0;
+                        }
                     }
 
 

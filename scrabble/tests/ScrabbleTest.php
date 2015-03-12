@@ -52,7 +52,7 @@
             $input_word = "home";
 
             //Act
-            $result = $test_scrabble_score_3->scrabbleScore($input_word);
+            $result = $test_scrabble_score_4->scrabbleScore($input_word);
 
             //Assert
             $final_score = 9;
