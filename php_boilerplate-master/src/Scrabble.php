@@ -1,6 +1,6 @@
 <?php
 
-    class MyProjectClass
+    class Scrabble
     {
         function myFunction()
         {

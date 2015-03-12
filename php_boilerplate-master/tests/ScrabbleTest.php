@@ -2,7 +2,7 @@
 
     require_once "src/MyProjectClass.php";
 
-    class MyProjectClassTest extends PHPUnit_Framework_TestCase
+    class ScrabbleTest extends PHPUnit_Framework_TestCase
     {
         function test_myFunction_firstTest()
         {
