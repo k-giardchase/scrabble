@@ -14,7 +14,8 @@
             $result = $test_Scrabble->scrabbleScore($input_word);
 
             //Assert
-            $this->assertEquals( 1, $result);
+            $score = array(1);
+            $this->assertEquals($score, $result);
         }
     }
 
