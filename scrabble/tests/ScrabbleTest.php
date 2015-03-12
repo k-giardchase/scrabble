@@ -87,6 +87,20 @@
             $this->assertEquals($final_score, $result);
         }
 
+        function test_scrabbleScoreTen()
+        {
+            //Arrange
+            $test_scrabble_score_10 = new Scrabble;
+            $input_word = "qualude";
+
+            //Act
+            $result = $test_scrabble_score_10->scrabbleScore($input_word);
+
+            //Assert
+            $final_score = 17;
+            $this->assertEquals($final_score, $result);
+        }
+
 
 
 
