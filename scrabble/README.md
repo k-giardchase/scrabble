@@ -1,21 +1,32 @@
-###Developers
-Bryan Borgeson
+##Developers
+Kyle Giard-Chase & Brett Moore
 
-###Date
-March 11, 2015
+##Date
+March 12 2015
 
-###Description
-This is a boilerplate for writing apps in PHP. It uses Composer to install <a href="https://phpunit.de/" target="_blank">PHPUnit</a>, <a href="http://silex.sensiolabs.org/" target="_blank">Silex</a>, and <a href="http://twig.sensiolabs.org/" target="_blank">Twig</a>.  It also links to a <a href="http://www.bootstrapcdn.com/" target="_blank">Bootstrap</a> CDN for CSS Styling.
+##Description
+An app that calculates a user's scrabble score.
 
-###Use and Editing
-To use this boilerplate, simply: <br />
-1. Download and Extract the compressed file into the directory you'd like your project to live in. <br />
-2. Load the project folder into your text editor. <br />
-3. Start PHP in the web folder of the project directory. <br />
-4. CODE! *Take care to change the names of the files in src, tests, and views, as well as the root folder to match your project* <br />
+##Technologies Used
+PHP <br>
+<a href='http://getbootstrap.com/'>Bootstrap </a>for styling <br>
+It uses <a href='https://getcomposer.org/'>Composer</a> to install:
+<li>
+<a href='http://silex.sensiolabs.org/'>Silex</a>
+</li>
+<li><a href='http://twig.sensiolabs.org/'>Twig</a></li>
+<li><a href='https://phpunit.de/'>PHPUnit</a></li>
 
-###Copyright (c) 2015 Bryan Borgeson
+##Use and Editing
+To view the app,<br>
+1. Open your command shell, and clone the repository  using the command `git clone https://github.com/k-giardchase/scrabble.git`<br>
+2. In the top level of the project folder, run `composer install`<br>
+3. Start a php server by changing directories into the web folder `cd scrabble/web`
+and start your server `php -S localhost:8000`<br>
+5. Open your browser and navigate to your root path: `localhost:8000`
 
+
+##Copyright (c) 2015 Kyle Giard-Chase & Brett Moore
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

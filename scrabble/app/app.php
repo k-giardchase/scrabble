@@ -14,8 +14,6 @@
         return $app['twig']->render('home.twig');
     });
 
-
-
     $app->get('/create_word', function() use ($app) {
         $word = new Scrabble;
         $generate_score = $word->scrabbleScore($_GET['inputword']);

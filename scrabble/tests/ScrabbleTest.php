@@ -17,6 +17,7 @@
             $final_score = 1;
             $this->assertEquals($final_score, $result);
         }
+
         function test_scrabbleScoreTwo()
         {
             //Arrange
@@ -114,10 +115,6 @@
             $final_score = 19;
             $this->assertEquals($final_score, $result);
         }
-
-        
-
-
 
     }
 
